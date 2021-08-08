@@ -20,7 +20,6 @@ def test_suggestion():
 
 def test_search_result():
     print('Starts testing search results...')
-    print('Starts testing suggestions...')
     browser.get('http://127.0.0.1:8000/')
     time.sleep(5)
     browser.find_element(By.XPATH, '//input[@class="searchInput"]').send_keys('Squirtle (Pokémon)')
